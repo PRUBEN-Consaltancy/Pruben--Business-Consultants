@@ -250,7 +250,7 @@ export function Advisory() {
                 loading="lazy"
                 className={i === 0 ? "h-full w-full object-cover" : "aspect-[16/10] w-full object-cover"}
               />
-              <div className="p-6">
+              <div className="flex flex-col justify-center p-6">
                 <h3 className="font-display text-lg font-bold text-primary">{s.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{s.body}</p>
                 <ul className="mt-4 space-y-2">
